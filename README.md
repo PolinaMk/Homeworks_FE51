@@ -1,3 +1,1 @@
-# Homeworks_FE51
-
-### The repository branches will host tasks
+### https://polinamk.github.io/Homeworks_FE51/task_2/index.html
