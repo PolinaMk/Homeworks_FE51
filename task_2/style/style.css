@@ -14,8 +14,9 @@ body {
 }
 
 .wrapper {
-    max-width: 1170px;
+    max-width: 1202px;
     margin: 0 auto;
+    padding: 0 16px;
 }
 
 .about {
