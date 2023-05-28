@@ -13,11 +13,7 @@ body {
     background-color: #D9D9D9;
 }
 
-p {
-    display: inline-block;
-}
-
-.wrapper {
+.container {
     max-width: 510px;
     padding: 0 16px;
     margin: 0 auto;
@@ -34,6 +30,10 @@ p {
     width: 100vw;
 }
 
+.first_block {
+    margin-bottom: 37px;
+}
+
 .logo {
     width: 80px;
     height: 80px;
@@ -44,17 +44,15 @@ p {
 .header_description {
     font-size: 14px;
     line-height: 21px;
-
-    width: 478px;
-    height: 109px;
     border: 2px solid #682E2E;
     padding: 24px 29px;
+}
+
+.about_block {
     margin-bottom: 37px;
 }
 
 .about_block_small {
-    width: 478px;
-    height: 100px;
     border: 1px solid #000000;
     padding: 21px 11px  14px 12px;
     margin-bottom: 37px;
@@ -63,8 +61,6 @@ p {
 .text_item {
     font-size: 14px;
     line-height: 21px;
-    width: 455px;
-    height: 28px;
     border: 1px solid #000000;
     margin-bottom: 9px;
     padding: 3px 11px;
@@ -75,40 +71,30 @@ p {
 }
 
 .about_block_big {
-    width: 478px;
-    height: 183px;
     border: 1px solid #000000;
     padding: 9px 11px 29px 12px;
-    margin-bottom: 37px;
 }
 
 .about_block_big > p:first-child {
-    width: 455px;
-    height: 73px;
-    border: 1px solid #000000;
     padding: 22px 24px 30px;
     margin-bottom: 25px;
 }
 
 .about_block_big > p:last-child {
-    width: 455px;
-    height: 47px;
-    border: 1px solid #000000;
     padding: 13px 26px;
 }
 
 .number_block_flex {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 37px;
 }
 
 .number_block_item {
     width: 227px;
-    height: 60px;
     background: #CDDBD1;
     border: 1px solid #000000;
     border-radius: 5px;
-    margin-bottom: 37px;
     font-size: 14px;
     line-height: 21px;
     padding: 20px 0;
