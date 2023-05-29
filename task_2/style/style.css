@@ -13,17 +13,127 @@ body {
     background-color: #FFFFFF;
 }
 
-.wrapper {
+.container {
     max-width: 1202px;
     margin: 0 auto;
     padding: 0 16px;
 }
 
+/*About block*/
 .about {
+    margin-top: 100px;
+}
+
+.about__links {
+    display: flex;
+}
+
+.about__link {
+    width: 184px;
+    padding: 8px 0;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #333333;
+    text-decoration: none;
+}
+
+.about__link_active {
+    width: 203px;
+    border-top: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    border-left: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.about__link_active:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 134px;
+    width: 201px;
+    height: 0px;
+    border-bottom: 4px solid white;
+}
+
+.about__content {
+    display: flex;
+    border: 1px solid #C6CBCD;
+    margin-top: -1px;
+}
+
+.about__text {
+    margin: 56px 29px 48px 100px;
+}
+
+.about__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.about__information {
+    margin: 57px 0 84px;
+}
+
+.about__subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.about__subtitle:first-child {
+    margin-bottom: 26px;
+}
+
+.about__photo {
+    width: 470px;
+    height: 500px;
+}
+
+.about__button {
+    background: #EC7979;
+    color: #FFFFFF;
+}
+
+.about__button:hover {
+    background: #AB4949;
+}
+
+.about__button:active {
+    background: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}
+
+.btn {
+    width: 270px;
+    height: 58px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: inline-block;
+    text-align: center;
+    padding: 16px 0;
+    cursor: pointer;
+}
+
+/*Awesome block*/
+.awesome {
     padding: 118px 0 110px;
 }
 
-.block_title {
+.title {
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -37,7 +147,7 @@ body {
     margin: 40px auto;
 }
 
-.block_subtitle {
+.awesome__subtitle {
     font-size: 18px;
     line-height: 21px;
     text-align: center;
@@ -45,7 +155,7 @@ body {
     margin-bottom: 92px;
 }
 
-.awesome_items {
+.awesome__items {
     display: flex;
     justify-content: space-between;
 }
