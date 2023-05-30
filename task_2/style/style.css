@@ -107,6 +107,7 @@ body {
 
 .about__button:hover {
     background: #AB4949;
+    transition: .5s;
 }
 
 .about__button:active {
