@@ -49,7 +49,7 @@ a {
 .promo__info {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 22px;
     line-height: 25px;
     color: #94A2B3;
@@ -67,6 +67,7 @@ a {
     cursor: pointer;
     margin-right: 12px;
     font-size: 18px;
+    font-weight: 500;
 }
 
 .promo__btn:hover {
