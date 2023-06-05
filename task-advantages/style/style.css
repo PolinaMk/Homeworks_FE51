@@ -28,6 +28,7 @@ a {
     margin-right: 36px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .advantages__content_item:last-child {
